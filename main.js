@@ -1,4 +1,14 @@
-const correctAnswer = ['B','B', 'B', 'B' ];
+const correctAnswer = [
+    'B',
+    'B', 
+    'B', 
+    'B', 
+    'B', 
+    'B',
+    'B',
+    'B', 
+    'B', 
+    'B' ];
 const form  = document.querySelector('.quiz-form');
 const button = document.querySelector('.btn');
 const result = document.querySelector('.result');
@@ -8,20 +18,33 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 
     let score = 0;
-    const userAnswer = [form.q1.value, form.q2.value, form.q3.value, form.q4.value];
+    const userAnswer = [
+        form.q1.value, 
+        form.q2.value, 
+        form.q3.value, 
+        form.q4.value, 
+        form.q5.value, 
+        form.q6.value, 
+        form.q7.value, 
+        form.q8.value, 
+        form.q9.value, 
+        form.q10.value];
 
     //check answers
 
     userAnswer.forEach((answer, index) => {
         if(answer === correctAnswer[index]) {
-            score +=25; 
+            score +=10; 
         }
     });
     console.log(score);
+
     //Out put result on page
     scrollTo(0,0);
     result.querySelector('span').textContent = `${score}%`;
     result.classList.remove('d-none');
+
+    //animation
 
     let output = 0;
     const timer = setInterval(() => {

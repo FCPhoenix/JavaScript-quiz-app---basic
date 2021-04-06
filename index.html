@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <title>JavaScript Quiz App</title>
+    <title>Quiz App</title>
 </head>
 <body>
     <!-- top section-->
@@ -20,7 +20,7 @@
     <!-- Result Section-->
     <div class="result py-4 d-none bg-light text-center">
         <div class="container lead">
-            <p>You are <span class="text-primary display-4 p-3">0%</span> Ninja</p>
+            <p>You Scored <span class="text-primary display-4 p-3">0%</span> for this quiz</p>
         </div>
     </div>
 
@@ -30,14 +30,14 @@
             <h2 class="my-5 text-white">On with the questions...</h2>
             <form action="" class="quiz-form text-light">
                 <div class="my-5">
-                    <p class="lead font-weight-normal">1. How do you give a ninja directions?</p>
+                    <p class="lead font-weight-normal">1. Entomology is the science that studies?</p>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q1" value="A" checked>
-                        <label for="" class="form-check-label">Show them a map</label>
+                        <label for="" class="form-check-label">The origin and history of technical and scientific terms</label>
                     </div>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q1" value="B" >
-                        <label for="" class="form-check-label">Don't worry, you would be found</label>
+                        <label for="" class="form-check-label">Insects</label>
                     </div>
                 </div>
                 <div class="my-5">
@@ -48,28 +48,94 @@
                     </div>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q2" value="B" >
-                        <label for="" class="form-check-label">3 apples and 3 corpses</label>
+                        <label for="" class="form-check-label">3 apples and 2 corpses</label>
                     </div>
                 </div> <div class="my-5">
-                    <p class="lead font-weight-normal">3. How do you Know when you've met a ninja?</p>
+                    <p class="lead font-weight-normal">3. First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted in?</p>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q3" value="A" checked>
-                        <label for="" class="form-check-label">You'll recognize the outfit</label>
+                        <label for="" class="form-check-label">1957</label>
                     </div>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q3" value="B" >
-                        <label for="" class="form-check-label">The grim reaper will tell you</label>
+                        <label for="" class="form-check-label">1967</label>
                     </div>
                 </div>
                 <div class="my-5">
-                    <p class="lead font-weight-normal">4. What is a Ninja's favourite array method</p>
+                    <p class="lead font-weight-normal">4. How many players are there in a rugby league team?</p>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q4" value="A" checked>
-                        <label for="" class="form-check-label">forEach()</label>
+                        <label for="" class="form-check-label">12</label>
                     </div>
                     <div class="form-check my-2 text-white-50">
                         <input type="radio" name="q4" value="B" >
-                        <label for="" class="form-check-label">slice()</label>
+                        <label for="" class="form-check-label">13</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. Which vitamin is the only one that you will not find in an egg?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="" class="form-check-label">Vitamin A</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" >
+                        <label for="" class="form-check-label">Vitamin C</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">6. A woman has walked on the Moon</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="A" checked>
+                        <label for="" class="form-check-label">True</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="B" >
+                        <label for="" class="form-check-label">False</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">7. What type of insect did John the Baptist eat in the desert? </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="A" checked>
+                        <label for="" class="form-check-label">Crickets</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="B" >
+                        <label for="" class="form-check-label">Locusts</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">8. Escape velocity of a rocket fired from the earth towards the moon is a velocity to get rid of the</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="A" checked>
+                        <label for="" class="form-check-label">Pressure of the atmosphere</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="B" >
+                        <label for="" class="form-check-label">Earth's gravitational pull</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">9. Who took Jesus’s body off the cross?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="A" checked>
+                        <label for="" class="form-check-label">John the favourite Apostle</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="B" >
+                        <label for="" class="form-check-label">Joseph of Arimathea</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">10. Which Gospel is written by a doctor?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="A" checked>
+                        <label for="" class="form-check-label">Mark</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="B" >
+                        <label for="" class="form-check-label">Luke</label>
                     </div>
                 </div>
                 <div class="text-center">
